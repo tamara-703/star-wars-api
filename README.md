@@ -4,6 +4,8 @@
 
 
 ## This project uses the Star Wars API to access several information about the legacy franchise, including movies, characters and much more
+### You can check out the website [here](https://starwarsapi-tamara703.onrender.com/)
+### just note that the API takes a *liiiittle* bit more time to load. These ships are high maintainance after all!
 
 ## Technologies used
 
@@ -19,7 +21,7 @@ React
 ## Environments used
 
 ```
-Github pages
+Render
 Visual Studio Code
 ```
 
