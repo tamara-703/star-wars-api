@@ -5,23 +5,13 @@ export default function StarShipCard({ starShips }) {
   const [key, setKey] = useState([]); //storing each starship keys
   const [value, setValue] = useState([]); //storing each starship values
 
-//    const [ship, setShip] = useState({keys: [], values: [] })
-const [ship, setShip] = useState([]);
-   //console.log("getting starships keys...");
   const starShipsKeys = Object.keys(starShips);
-   //console.log(starShipsKeys);
 
-//   console.log("getting starships values");
   const starShipValues = Object.values(starShips);
-//   console.log(starShipValues);
 
   const updateShip = () => {
     setKey(starShipsKeys);
     setValue(starShipValues);
-
-    //  console.log("mapping starship...")
-    //  console.log(key)
-    // console.log(value)
 
   };
 

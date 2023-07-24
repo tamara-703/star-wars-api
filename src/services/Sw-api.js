@@ -1,10 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import StarShipCard from "./StarShipCard";
 
 export default function GetAllStarships() {
   const [starShips, setStarShips] = useState(null);
-
- 
 
   //get all starships
   const getStarShips = async () => {

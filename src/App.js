@@ -1,5 +1,5 @@
 import './App.css';
-import StarWarsAPI from './services/Sw-api'
+import StarWarsAPI from './services/Sw-api';
 import StarShipCard from './services/StarShipCard';
 
 function App() {
